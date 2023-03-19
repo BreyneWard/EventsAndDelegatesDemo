@@ -23,7 +23,7 @@ namespace EventsAndDelegatesDemo
         // 2.
         //public event VideoEncodedEventHandler VideoEncoded;
 
-        // New way of working with an generic eventhandler -> no need to make your own delegate
+        // New way of working with an generic buildin eventhandler -> no need to make your own delegate
         // public event EventHandler VideoEncoded // default with parameters (object source, eventargs e)
         public event EventHandler<VideoEventArgs> VideoEncoded;
         
